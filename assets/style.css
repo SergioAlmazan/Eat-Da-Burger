@@ -1,0 +1,96 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/burgerback.jpg");
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: 50%;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.my-container{
+  margin: 10px auto;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color:rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 400px;
+  line-height: 1.5em;
+}
+
+.icon-burger {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+h3 {
+  font-size: 20px;
+  color: aliceblue;
+}
+#burger-name:placeholder {
+  color: rgb(190, 190, 190);
+}
+#burger-name:focus::placeholder {
+  color: transparent;
+}
+.add-btn {
+  background: rgb(182, 161, 68);
+  color: white;
+  border: none;
+}
+
+h4 {
+  background: rgba(251, 251, 196, 0.8);
+  margin: 0;
+  padding: 10px;
+  font-size: 19px;
+}
+
+.ordered-container, .devoured-container {
+  padding: 0;
+}
+.ordered-container ul, .devoured-container ul {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 0 10px 0;
+  min-height: 40px;
+}
+li {
+  list-style: none;
+  padding: 3px 0 0 0;
+}
+
+.devoured-btn, .delete-btn {
+  border: 1px solid black;
+  background: none;
+  margin: 2px;
+  padding: 0px 7px;
+}
+.devoured-btn:hover {
+  border: 1px solid rgb(2, 0, 0);
+  background: rgb(241, 42, 42);
+  color: black;
+}
+.delete-btn:hover {
+  border: 1px solid rgb(255, 41, 41);
+  background: rgb(255, 41, 41);
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 57px;
+  }
+  .icon-burger {
+    width: 40px;
+  }
+}
