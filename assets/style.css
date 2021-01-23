@@ -28,8 +28,8 @@ h1 {
 
 h3 {
   font-size: 50px;
-  color: white;
-  outline: azure solid 10px;
+  color: black;
+  text-shadow: rgba(226, 128, 16, 0.8);
 }
 #burger-name:placeholder {
   color: rgb(190, 190, 190);
