@@ -22,14 +22,14 @@ h1 {
   font-weight: 600;
   color:rgba(226, 128, 16, 0.8);
   text-align: center;
-  font-size: 450px;
-  line-height: 1.5em;
+  font-size: 500px;
+  line-height: 2em;
 }
 
 h3 {
-  font-size: 60px;
-  color: rgba(2, 1, 0, 0.8);
-  border: 10px solid rgb(245, 245, 245);
+  font-size: 50px;
+  color: rgba(92, 92, 92, 0.8);
+  outline: azure;
 }
 #burger-name:placeholder {
   color: rgb(190, 190, 190);
