@@ -31,8 +31,9 @@ h1 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 80px;
   color: rgba(2, 1, 0, 0.8);
+  border: rgb(245, 245, 245);
 }
 #burger-name:placeholder {
   color: rgb(190, 190, 190);
