@@ -26,13 +26,6 @@ h1 {
   line-height: 1.5em;
 }
 
-.icon-burger {
-  margin: 0 auto;
-  display: block;
-  width: auto;
-  height: auto;
-}
-
 h3 {
   font-size: 20px;
   color: aliceblue;
@@ -44,13 +37,13 @@ h3 {
   color: transparent;
 }
 .add-btn {
-  background: rgb(182, 161, 68);
+  background: rgb(158, 139, 53);
   color: white;
   border: none;
 }
 
 h4 {
-  background: rgba(251, 251, 196, 0.8);
+  background: rgba(39, 195, 216, 0.8);
   margin: 0;
   padding: 10px;
   font-size: 19px;
