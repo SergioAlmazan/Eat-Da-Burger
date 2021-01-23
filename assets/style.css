@@ -43,7 +43,7 @@ h3 {
 }
 
 h4 {
-  background: rgba(39, 195, 216, 0.8);
+  background: rgba(226, 128, 16, 0.8);
   margin: 0;
   padding: 10px;
   font-size: 19px;
@@ -53,7 +53,7 @@ h4 {
   padding: 0;
 }
 .ordered-container ul, .devoured-container ul {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(167, 135, 30, 0.7);
   padding: 0 0 10px 0;
   min-height: 40px;
 }
